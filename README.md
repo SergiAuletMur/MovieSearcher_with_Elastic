@@ -27,9 +27,11 @@ Se'ns obrirà una consola on veurem que s'esta engegant el elastic i el kibana, 
 ## Comprovem que elastic & Kibana s'estiguin executan correctament.
 Browse to http://localhost:9200 and http://localhost:5601 to confirm ES / Kibana running
 
-# Indexar DB movies.
+# Indexar DB movies. (IN PROGRESS DONT DOWNLOAD)
 Un cop instal·lat E.S. & Kibana anem a indexar la DB de movies perque el elastic les pugui afegir.
-(La Database esta al projecte "tmdb.json").
+1. Descargar la DB amb la que treballarem --> Download [tmdb.json] (http://es-learn-to-rank.labs.o19s.com/tmdb.json) Es tocha de collons 123MB ojoo el pc!
+
+2. Hem d'installar Phynton 3.6 per a poder executar el script que he trobat a interneh i la llibreria de ...
 
 
 
