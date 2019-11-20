@@ -78,5 +78,7 @@ Els json_schema serveixen per definir-li la estrucutura que tindran els camps in
   Per tant cada objecte pelicula al executar el script tindra aquets camps que segiran el patro del json_schema.
   Mho he mirat per sobre sha de aprofondir...
 
+## Probar que haguem afegit les pelis
 
-
+ Navegueu [aqui](http://localhost:9200/tmdb/_search?q=*)
+Us ha de sortir un llistat de pelis que hi ha al Elastic, nose si totes ami men surten 5 o 6 he de mirar pq si esta be o que esta pasant
