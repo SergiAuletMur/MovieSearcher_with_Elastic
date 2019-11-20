@@ -46,8 +46,9 @@ A mi mha sortit versio 2.17 o algo aixi i mha xutat igualment aixi que prubeu.
 - Per Windows:
 https://www.python.org/downloads/
 
-3. Instalem llibreria de elastic per Python. [llibreria](https://elasticsearch-py.readthedocs.io/en/master/)
-Esta en ubuntu en windows npi, busqueu google nse perq feu servir windows xD.
+3. Instalem llibreria de elastic per Python. [llibreria](https://elasticsearch-py.readthedocs.io/en/master/) ->
+esta en ubuntu.
+Per windows npi, busqueu google nse perq feu servir windows xD.
 
 4. Executar script.
 Aquest script indexa i afegeix a elastic veureu a la consola que es van indexant i afegint, pero tarda la vida perque la database json es de 123MB.
@@ -84,5 +85,7 @@ Navegueu [aqui](http://localhost:9200/tmdb/_search?q=*)
 Us ha de sortir un llistat de pelis que hi ha al Elastic, nose si totes ami men surten 5 o 6 he de mirar pq si esta be o que esta pasant
 
 Recomenacio: instaleuvos la extensio de chrome JSON Formatter per a veure les dades ben identades / formatejades...
+
+Qualsevol cosa que vulgeu afegir, editeu el readMe
 
 
