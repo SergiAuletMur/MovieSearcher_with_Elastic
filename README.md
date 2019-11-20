@@ -31,7 +31,31 @@ Browse to http://localhost:9200 and http://localhost:5601 to confirm ES / Kibana
 Un cop instal·lat E.S. & Kibana anem a indexar la DB de movies perque el elastic les pugui afegir.
 1. Descargar la DB amb la que treballarem --> Download [tmdb.json](http://es-learn-to-rank.labs.o19s.com/tmdb.json) Es tocha de collons 123MB ojoo el pc!
 
-2. Hem d'installar Phynton 3.6 per a poder executar el script que he trobat a interneh i la llibreria de ...
+2. Hem d'installar Phynton 3.6 o 3.7 per a poder executar el script que he trobat a interneh
+- Per Ubuntu:
+```bash
+sudo apt update
+sudo apt install python3.6
+```
+Mirem versio que sens ha instalat:
+```bash
+python -V
+```
+A mi mha sortit versio 2.17 o algo aixi i mha xutat igualment aixi que prubeu.
+
+- Per Windows:
+https://www.python.org/downloads/
+
+3. Instalem llibreria de elastic per Python. [llibreria](https://elasticsearch-py.readthedocs.io/en/master/)
+Esta en ubuntu en windows npi, busqueu google nse perq feu servir windows xD.
+
+4. Executar script.
+Aquest script indexa i afegeix a elastic veureu a la consola que es van indexant i afegint, pero tarda la vida perque la database json es de 123MB.
+
+```bash
+python indexTmdb.py
+```
+
 
 
 
