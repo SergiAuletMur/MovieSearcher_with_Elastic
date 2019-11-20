@@ -62,6 +62,7 @@ Mho he mirat per sobre yo coses que he anat entenent:
 El script indexa i afegeix a la DB.
 Els json_schema serveixen per definir-li la estrucutura que tindran els camps index (no ho ser segur):
   Exemple:
+  ```bash
   {
     _index,
     _type,
@@ -73,7 +74,7 @@ Els json_schema serveixen per definir-li la estrucutura que tindran els camps in
     Aqui aniria les dades de la pelicula.
    }
   }
-  
+```
   Per tant cada objecte pelicula al executar el script tindra aquets camps que segiran el patro del json_schema.
   Mho he mirat per sobre sha de aprofondir...
 
