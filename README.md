@@ -29,7 +29,7 @@ Browse to http://localhost:9200 and http://localhost:5601 to confirm ES / Kibana
 
 # Indexar DB movies.
 Un cop instal·lat E.S. & Kibana anem a indexar la DB de movies perque el elastic les pugui afegir.
-1. Descargar la DB amb la que treballarem --> Download [tmdb.json](http://es-learn-to-rank.labs.o19s.com/tmdb.json) Es tocha de collons 123MB ojoo el pc!
+1. Descargar la DB amb la que treballarem --> Download [tmdb.json](http://es-learn-to-rank.labs.o19s.com/tmdb.json) Es tocha de collons 123MB ojoo el pc! I la puseu dins la carpeta del projecte. (No lhe pogut pujar a git perque ocupava massa)
 
 2. Hem d'installar Phynton 3.6 o 3.7 per a poder executar el script que he trobat a interneh
 - Per Ubuntu:
