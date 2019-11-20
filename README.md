@@ -27,6 +27,9 @@ Se'ns obrirà una consola on veurem que s'esta engegant el elastic i el kibana, 
 ## Comprovem que elastic & Kibana s'estiguin executan correctament.
 Browse to http://localhost:9200 and http://localhost:5601 to confirm ES / Kibana running
 
+# Indexar DB movies.
+Un cop instal·lat E.S. & Kibana anem a indexar la DB de movies perque el elastic les pugui afegir.
+(La Database esta al projecte "tmdb.json").
 
 
 
