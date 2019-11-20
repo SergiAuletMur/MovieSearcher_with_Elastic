@@ -27,7 +27,7 @@ Se'ns obrirà una consola on veurem que s'esta engegant el elastic i el kibana, 
 ## Comprovem que elastic & Kibana s'estiguin executan correctament.
 Browse to http://localhost:9200 and http://localhost:5601 to confirm ES / Kibana running
 
-# Indexar DB movies. (IN PROGRESS DONT DOWNLOAD)
+# Indexar DB movies.
 Un cop instal·lat E.S. & Kibana anem a indexar la DB de movies perque el elastic les pugui afegir.
 1. Descargar la DB amb la que treballarem --> Download [tmdb.json](http://es-learn-to-rank.labs.o19s.com/tmdb.json) Es tocha de collons 123MB ojoo el pc!
 
@@ -56,7 +56,26 @@ Aquest script indexa i afegeix a elastic veureu a la consola que es van indexant
 python indexTmdb.py
 ```
 
+OJO: El indexar l'he tret tot de internet (copy & paste) haurem de mirar cada fitxer per entendre que per el dia de la expo.
 
+Mho he mirat per sobre yo coses que he anat entenent:
+El script indexa i afegeix a la DB.
+Els json_schema serveixen per definir-li la estrucutura que tindran els camps index (no ho ser segur):
+  Exemple:
+  {
+    _index,
+    _type,
+    cluster{
+      node1
+      node2
+   }
+   {
+    Aqui aniria les dades de la pelicula.
+   }
+  }
+  
+  Per tant cada objecte pelicula al executar el script tindra aquets camps que segiran el patro del json_schema.
+  Mho he mirat per sobre sha de aprofondir...
 
 
 
